@@ -3,14 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* nav */
 nav{
     background-color:white;
-   
     width: 100%;
     display: flex;
     position: fixed;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding: 0 10px;
 }
 
 .left-bar,.right-bar{
@@ -18,7 +18,7 @@ nav{
     flex-direction: row;
     justify-content: space-between;
   
-    height: 80px;
+    height: 60px;
     
 }
 
@@ -28,29 +28,27 @@ ul{
 }
 
 .left-bar ul,.right-bar ul {
-    gap: 10px;
-    
+    gap: 20px;
+    color: gray;
     display: flex;
     flex-direction: row;
     align-items: center;
 
 }
+
 /* header */
 
 header{
-    height: 480px;
     width: 100%;
     padding-top: 80px;
-    
-    /* test */
     background-color: #b4d0e7;
     
     
 }
 
 .header-inner{
-
-    max-width:65% ;
+    padding-top: 30px;
+    max-width:70% ;
     margin:auto;
     
 }
@@ -58,30 +56,26 @@ header{
 
     
     max-height: 100%;
-    /* max-width:60% ; */
     margin:auto;
     display: flex;
-    padding: 20px;
+    padding-top: 30px;
 }
 
 .header-text{
-    height: 200px;
+    
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
-    gap: 10px;
-    width: 35%;
-    overflow: auto;
+    width: 30%;
     
 }
 
 .header-img{
     display: flex;
-    width: 65%;
+    width: 70%;
+    margin-bottom: -75px;
    
-
-    /* test */
 }
 .header-img img{
     width: 100%;
@@ -90,7 +84,6 @@ header{
 }
 
 .header-title{
-    /* width: 60%; */
     margin: auto;
 
 }
@@ -113,6 +106,11 @@ i{
     border: none;
 }
 
+.btn-white{
+    background-color: white;
+    padding: 10px 5px;
+}
+
 /* main */
 
 .container{
@@ -122,16 +120,15 @@ i{
     margin: auto;
     
 }
-
-.columns{
+.columns,.rows{
     
     display: flex;
     gap: 20px;
-    
+    padding: 30px 0;
 }
 
 .card{
-    padding-top: 50px;
+    padding: 50px 0;
 }
 
 .card>div{
@@ -158,13 +155,13 @@ h3,h5,span{
     padding: 5px;
 }
 
-i{
-    font-size: small;
-    
+header i{
+    font-size: xx-large;
 }
 
-.text{
-    display: flex;
+.container div i{
+    font-size: small;
+    
 }
 
 .row{
@@ -190,12 +187,26 @@ hr{
     flex-direction: column;
     
 }
-
-.row{
+.rows{
     display: flex;
+    gap: 20px;
+    padding: 30px 0;
+}
+
+.column-text{
+    max-width: 40%;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+.column-text div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
 }
 
 .row div img{
-    width: 70%;
+    width: 100%;
 
 }
