@@ -187,11 +187,7 @@ hr{
     flex-direction: column;
     
 }
-.rows{
-    display: flex;
-    gap: 20px;
-    padding: 30px 0;
-}
+
 
 .column-text{
     max-width: 40%;
@@ -209,4 +205,51 @@ hr{
 .row div img{
     width: 100%;
 
+}
+/* square */
+
+.square{
+    
+    width: 100%;
+    display: flex;
+}
+
+.left-square  {
+    width: 100%;
+    height: calc(100% / 2);
+    flex-wrap: wrap;
+    
+}
+
+.row-square{
+    display: flex;
+    max-height: 50%;
+}
+
+.center-square {
+    
+    width: 100%;
+    height: calc(100% / 2);
+    flex-wrap: wrap;
+    
+}
+
+.right-square {
+    
+    width: 100%;
+    height: calc(100% / 2);
+    flex-wrap: wrap;
+    
+
+}
+
+.row-square div{
+
+    width: 100%;
+    height: calc(100% / 2);
+    flex-wrap: wrap; 
+}
+.square div img{
+    width: 50%;
+   
 }
