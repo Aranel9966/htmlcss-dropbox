@@ -188,7 +188,6 @@ hr{
     
 }
 
-
 .column-text{
     max-width: 40%;
     display: flex;
@@ -209,47 +208,83 @@ hr{
 /* square */
 
 .square{
-    
+    margin-top: 40px;
+    height: 50vw;
     width: 100%;
     display: flex;
 }
 
-.left-square  {
-    width: 100%;
-    height: calc(100% / 2);
-    flex-wrap: wrap;
+.left-square,.right-square{
+    
+    height: calc(100% / 3);
+    
+    width: calc(100% / 3);
     
 }
 
 .row-square{
     display: flex;
-    max-height: 50%;
+    height: 100%;
 }
 
 .center-square {
+    padding: 30px;
+    width: calc(100% / 3);
+    height: calc(100% / 2);
+    overflow: auto;
+    
+    
+}
+
+/* .right-square {
     
     width: 100%;
     height: calc(100% / 2);
     flex-wrap: wrap;
     
-}
 
-.right-square {
-    
-    width: 100%;
-    height: calc(100% / 2);
-    flex-wrap: wrap;
-    
-
-}
+} */
 
 .row-square div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% / 2);
 
-    width: 100%;
-    height: calc(100% / 2);
-    flex-wrap: wrap; 
+    /* height: calc(100% / 2);
+    flex-wrap: wrap;  */
 }
 .square div img{
     width: 50%;
+    
    
+}
+
+/* background color square */
+
+.designit{
+    background-color: #a2d39b;
+    padding: 5px ;
+}
+.arizona{
+    background-color: #61082b;
+}
+.university{
+    background-color: #0093ce;
+}
+.topps{
+    background-color: #ff1c1c;
+}
+
+.world{
+    background-color: #ff1c1c;
+}
+.hearst_corp{
+    background-color: #b4d0e7;
+}
+.lonely_planet{
+    background-color: #0d2481;
+}
+.clear_channel{
+    background-color: #ffd830;
 }
