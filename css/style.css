@@ -7,7 +7,11 @@
 html{
     font-family: 'Open Sans', sans-serif;
 }
+
+
 /* nav */
+
+
 nav{
     background-color:white;
     width: 100%;
@@ -25,6 +29,7 @@ nav{
     height: 60px;
     
 }
+
 .logo{
     min-width: 160px;
     display: flex;
@@ -50,7 +55,9 @@ ul{
     padding: 21px 0;
 }
 
+
 /* header */
+
 
 header{
     width: 100%;
@@ -66,6 +73,7 @@ header{
     margin:auto;
     
 }
+
 .header-inner-bot{
 
     
@@ -91,6 +99,7 @@ header{
     margin-bottom: -75px;
    
 }
+
 .header-img img{
     width: 100%;
     height: auto;
@@ -174,6 +183,7 @@ header i{
     font-size: xx-large;
     color: black;
 }
+
 header i:hover{
     
     color:#0061ff;
@@ -198,7 +208,9 @@ hr{
     opacity: 30%;
 }
 
+
 /* last-card */
+
 
 .last-card{
     display: flex;
@@ -224,6 +236,7 @@ hr{
     align-items: center;
     padding: 40px;
 }
+
 .column-text div{
     display: flex;
     flex-direction: column;
@@ -235,7 +248,10 @@ hr{
     width: 100%;
 
 }
+
+
 /* square */
+
 
 .square{
     margin-top: 40px;
@@ -278,10 +294,10 @@ hr{
     width: calc(100% / 2);
 
 }
+
 .square div img{
     width: 50%;
     
-   
 }
 
 
@@ -293,6 +309,7 @@ hr{
     border: 10px solid #ffffff7a ;
 
 }
+
 
 .designit{
     background-color: #a2d39b;
@@ -321,6 +338,7 @@ hr{
     background-color: #ffd830;
 }
 
+
 /* /background color square */
 
 
@@ -348,7 +366,9 @@ hr{
     padding: 10px 25px;
 }
 
+
 /* requests */
+
 
 .requests{
     padding: 20px 0;
@@ -370,8 +390,8 @@ hr{
     opacity: 60%;
 }
 
-/*------ footer */
 
+/*------ footer */
 
 
 footer{
@@ -410,7 +430,7 @@ strong{
 }
 
 .end-bar{
-    /* color: lightgray; */
+    
     padding: 40px 0; 
     opacity: 30%;
 }
