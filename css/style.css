@@ -58,6 +58,9 @@ ul{
 
 /* header */
 
+#gray{
+    color: lightgray;
+}
 
 header{
     width: 100%;
