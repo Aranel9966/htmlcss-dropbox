@@ -272,11 +272,14 @@ hr{
 }
 
 
-
-
-
-
 /* background color square */
+
+
+
+.row-square div:hover{
+    border: 10px solid #ffffff7a ;
+
+}
 
 .designit{
     background-color: #a2d39b;
