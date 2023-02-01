@@ -21,6 +21,11 @@ nav{
     height: 60px;
     
 }
+.logo{
+    min-width: 160px;
+    display: flex;
+    align-items: center;
+}
 
 ul{
     list-style-type: none;
@@ -36,8 +41,9 @@ ul{
 
 }
 
-.left-bar ul:hover {
-    border-bottom: 1px solid black;
+.left-bar li:hover,.right-bar li:hover {
+    border-bottom: 2px solid #0061ff;
+    padding: 21px 0;
 }
 
 /* header */
